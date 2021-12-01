@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Projeto HTML</title>
+Ir para Formulário,
+<a href="Formulario_web.html">clique aqui</a>
+<p>
+Próximo conteúdo,
+<a href="Projeto_CSS.html">clique aqui</a>
+<center>
+<img src="imagehtml.png" height="50%" width="50%"></>
+    <h1> HTML 5 </h1>
+	<h2>
+É uma linguagem de marcação de hipertexto, uma versão mais atualizada do HTML para apresentar e estruturar o conteúdo na web. Essa linguagem usa um texto codificado para criar e organizar conteúdo online.
+</h2>
+ <h3>
+   	Características 
+</h3>
+ <h4>
+   	
+  -Navegação mais rápida e simples;</h4>
+
+<p>-Ferramenta gráfica - canvas (tela);</p>
+<p>-Elemento áudio e vídeo;</p>
+<p>-Suporta novos tipos de controles de formulário;</p>
+<p>Melhor suporte para armazenamento local;</p>
+<p>Inclui novos elementos de semântica;</p>
+</h4>
+ <h2>
+Imagem Demonstrativa do Código de HTML 5
+</h2>
+</center>
+<center>
+<img src="capahtml.png" height="50%" width="50%"></>
+
+<h2>
+Elementos de estrutura de documentos
+</h2>
+</center>
+<p> < html>...< /html>
+O elemento raiz de um documento HTML; todos os outros elementos estão contidos neste.
+O elemento HTML delimita o início e o fim de um documento HTML.
+padronizado no HTML 2.0; ainda em uso.</p>
+<p> < head>...< /head>
+Container for processing information and metadata for an HTML document.
+padronizado no HTML 2.0; ainda em uso.
+(Veja Elementos do cabeçalho do documento para elementos filhos.)</p>
+<p> < body>...< /body>
+Contêiner para um conteúdo visualizável de um documento HTML.
+padronizado no HTML 2.0; ainda em uso.
+(Veja Elementos do corpo do documento para os elementos filhos.)</p>
+<center>
+<h2>
+Elementos do cabeçalho do documento
+</h2>
+</center>
+
+ <P> < base>
+Especifica um URL base para todos os href relativos e outros links no documento. Deve aparecer antes de qualquer elemento que refere-se a um recurso externo. HTML permite apenas um elemento base para cada documento. O elemento base possui atributos mas nenhum conteúdo.
+Um versão desenvolvida de BASE é mencionada em HTML Tags; padronizado no HTML 2.0; ainda em uso.</P>
+<p> < basefont> (obsoleto)
+Especifica um tamanho, tipo e cor de fonte base para o documento. Utilizada juntamente com elementos font. Depreciada em favor das folhas de estilo.
+Padronizado no HTML 3.2; tornado obsoleto no HTML 4.0 Transitional; invalidado no HTML 4.0 Strict.</p>
+<p> < isindex> (obsoleto)
+isindex pode tanto aparecer no cabeçalho do documento quanto no corpo, mas apenas uma vez no documento. Requer um motor de busca no servidor.
+No cabeçalho, indicaque o documento é um índice pesquisável. Visualmente apresenta uma entrada de texto de uma linha para a palavra-chave. Quando submetido, o query string é adicionado ao URL em uso e o documento é apresentando com essas palavras chaves destacadas. Geralmente se o servidor suporta essa funcionalidade, o mesmo adicionará os elementos isindex aos documentos sem a intervenção do autor.
+ISINDEX existia no HTML Tags; padronizado no HTML 2.0; tornado obsoleto no HTML 4.0 Transitional; invalidado no HTML 4.0 Strict.</p>
+<p> < link>
+Especifica links para outros documentos, tais como links anterior e posterior, ou versões alternativa.[5] Um uso comum é a um link para folhas de estilo externas, usando a forma:
+< link rel="stylesheet" type="text/css" href="url" title="description_of_style">[6]
+Um uso menos comum, mas importante, é para fornecer hints de navegação consistentemente através de microformatos. Várias relações comuns são definidas, que podem ser expostos para os usuários através da interface do navegador ao invés de diretamente na página web.</p>
+<p> < link rel="next" href="url">
+Um elemento ’s head do documento pode conter vários elementos link. O elemento link possui atributos, mas nenhum conteúdo.
+LINK existia no HTML Internet Draft 1.2, e foi padronizado no HTML 2.0; ainda em uso.</p>
+<p> < meta>
+Pode ser usado para especificar metadados especiais sobre o documento, tais como autor, data de publicação, data de expiração, descrição da página ou outra informação não fornecida pelos outros elementos e atributos de cabeçalho. Devido a sua natureza genérica, elementos meta especificam pares de chave-valor associativos.
+Em um formulário, elementos meta podem especificar cabeçalhos HTTP que seriam enviados para um servidor web antes do conteúdo em si, por exemplo:
+< meta http-equiv="foo" content="bar">
+— this specifies that the page should be served with an HTTP header called foo that has a value bar.
+Na forma geral, um elemento meta especifica os atributos name e content associado descrevendo aspectos da página HTML. Para prevenir uma possível ambiguidade, um terceiro atributo opcional, scheme, pode ser fornecido para para especificar um framework semântico que define o significado das chaves e seus valores; por exemplo:
+< meta name="foo" content="bar" scheme="DC">
+padronizado no HTML 2.0; ainda em uso.</p>
+<p> < object>…< /object>
+Usado para incluir objetos genéricos no cabeçalho do documento. Apesar de ser raramente usado dentro do elemento head, ele pode potencialmente ser usado para extrair dados externos e associá-los ao documento em uso.
+padronizado no HTML 4.0; ainda em uso.</p>
+<p> < script>…< /script>
+Pode atuar como um contêiner para instruções de script ou um link para um script externo com o atributo opcional src.[7] Ainda utilizável no corpo do documento para gerar dinamicamente tanto blocos quanto conteúdo em linha.
+padronizado no HTML 3.2; ainda em uso.</p>
+<p> < style>…< /style>
+Especifica um estilo para o documento, geralmente na forma:
+<p> < style type="text/css"> … <  /style>
+Pode tanto atuar como um contêiner para as instruções de estilo quanto um link para uma folha de estilo externa – por exemplo, no CSS, com as diretivas de @import com o seguinte formato:
+< style> @import url; < /style>[8]
+padronizado no HTML 3.2; ainda em uso.</p>
+<p> < title>…< /title>
+Define o título do documento. Required in every HTML and XHTML document. User agents may use the title in different ways. For example:
+Navegadores web geralmente os apresentam em uma janela’s barra de título quando a janela está aberta, e (onde aplicável) na barra de tarefas quando a janela é minimizada.
+Ela pode tornar-se o nome de arquivo padrão ao salvar a página.
+Motores de buscas de web crawlers tomam atenção especial nas palavras utilizadas no título.
+O elemento title não pode conter outros elemento, apenas o texto. Apenas um elemento title é permitido em um documento.
+TITLE existia no HTML Tags, e foi padronizado no HTML 2.0; ainda em uso.</p>
+
+
+<link rel="stylesheet" type="text/css" href="estilo2.css"
+
+</head>
+
+<body>
+
+
+
+
+	</body>
+
+
+	</html>

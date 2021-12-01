@@ -1,0 +1,22 @@
+body{background-image: url(fundomarinho.jpg);
+}
+p{
+	color:rgb(#000);
+	font-size: 22px;
+}
+h1{
+	color:rgb(#000000);
+	text-align: center;
+}
+div {
+	color: rgb(#000);
+	text-align: center;
+}
+form {
+	text-align: center;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+}
